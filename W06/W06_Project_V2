@@ -1,0 +1,35 @@
+const url = "https://pokeapi.co/api/v2/pokemon/";
+let results = null
+
+function getUpdates() {
+    const pokemon = document.querySelector("#input").value;
+    return pokemon
+}
+async function lookUpPokemon(pokemon, url) {
+    const newUrl = url + pokemon;
+    const response = await fetch(newUrl);
+    if (response.ok) {
+        const data = await response.json();
+    doStuff(data);
+    }
+}
+function doStuff(data) {
+    results = data;
+    outputPokemon(pokemonInfo, "#output")
+    document.querySelector("#test").innerHTML = results
+}
+function outputPokemon(pokemonInfo, selector) {
+    pokemonInfo.forEach(ability => {
+        let content = document.createElement("h4");
+        content.textContent = ability.name;
+    });
+    document.querySelector(selector).innerText = pokemonInfo
+}
+
+function clickHandler() {
+    const pokemon = getUpdates();
+    const pokemonInfo = lookUpPokemon(pokemon, url);
+    outputPokemon(pokemonInfo, "#output");
+}
+
+document.querySelector("#submitButton").addEventListener("click", clickHandler);
