@@ -1,4 +1,4 @@
-This is home to my discord-bot project, among other attempts. The discord-bot folder is my official submission.
+This is home to my discord-bot project, among other attempts. The discord-bot folder, and more specifically, the file discordbot.js, are my final submission for W06 Tasks.
 
 For some reason, I had a difficult time with API's and getting them to update on my computer. Therefore, I shifted my focus onto something that was closer aligned with my interests and something that I could complete.
 
