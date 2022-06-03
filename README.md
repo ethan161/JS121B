@@ -1,10 +1,7 @@
-This is a very simple discord bot - one that takes a pretty incredible amount of time, but one that works amazingly!
+This is home to my discordbot project, among other attempts. The discordbot folder is my official submission.
 
-Type "Hello!" in chat to receive a reply from the bot, and type "Math" to have a randomized division problem be solved in the chat bar.
+For some reason, I had a difficult time with API's and getting them to update on my computer. Therefore, I shifted my focus onto something that was closer aligned with my interests and something that I could complete quickly.
 
-In the discordbot.js file, I placed my own code. I spent around three hours trying to set up the bot, so I didn't leave myself much time to add additional features.
-Additionally, since this was posted to the internet, I changed the client token, meaning no one else can affect the bot.
+Because none of the other files were completed, they are unable to run correctly, but I figured I would upload them here anyway.
 
-I am already looking forward to adding features to this!
-All other code is courtesy of codeacademy.org.
-
+Thanks again for letting me submit this today, it is much appreciated.
