@@ -12,7 +12,7 @@ client.on("ready", () => {
 
 // Log In our bot
 CLIENT_TOKEN =
-  "OTgyMzEyNzA5NDI3MTY3MzIy.GFGY7_.ASzsXOhx1d_unPGzXNL6BoPpa7HqpY2xUvIAL8";
+  "OTgyMzEyNzA5NDI3MTY3MzIy.G9P7Zg.9az0DtE8Io090q9nnK5YsHZ7W0zIX4Xek8s008";
 client.login(CLIENT_TOKEN);
 
 client.on("messageCreate", (msg) => {
